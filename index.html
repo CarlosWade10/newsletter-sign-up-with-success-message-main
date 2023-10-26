@@ -18,9 +18,9 @@
 
   <!-- Sign-up form start -->
 <div class="total">
-
+ 
   <div class="fondoCabecera">
-    <img src="assets/images/illustration-sign-up-mobile.svg" class="laptop-mobile" alt="">
+    <img src="assets/images/illustration-sign-up-mobile.svg" class="laptop-mobile" alt="" >
   </div>
   
   <div class="texto">
@@ -31,7 +31,7 @@
     </h1>
   </div>
   
-  <p>
+  <p class="info">
     Join 60,000+ product managers receiving monthly updates on:
     </p>
     
@@ -53,36 +53,27 @@
       
     </ul>
     
-    <label for="InputCorreo" class="nombreInput">
-      Email address
-    </label>
-    
-    <br>
-    <input type="text" name="InputCorreo" placeholder="email@company.com" class="InputCorreo"> 
-    
-    <br>
-    <button class="BtnEntrar">
-      <a href="#" class="BtnEntrar">
+    <form action="" id="frm">
+      <label for="InputCorreo" class="nombreInput">
+        Email address <span class="msgerror error" id="msgerror"></span>
+      </label>
+      
+      <br>
+      <input type="email" name="InputCorreo" placeholder="email@company.com" class="InputCorreo" id="email"> 
+      
+     <br>
+     <button class="BtnEntrar" id="registrar"> 
         Subscribe to monthly newsletter
-    </a>
-  </button>
+     </button>
+    </form>
   
 </div>
 </div>  
 <!-- Sign-up form end -->
   
-
-  <!-- Success message start -->
-  
-  Thanks for subscribing!
-  
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-  
-  Dismiss message
-  
 </div>
-  <!-- Success message end -->
   
+  <script src="funcion.js"></script>
+
 </body>
 </html>

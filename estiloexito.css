@@ -65,4 +65,8 @@ color: white;
         background-color: hsl(4, 100%, 67%);
         color: white; 
        } 
+
+       .resultado{
+        color: black;
+       }
 }
